@@ -1,7 +1,7 @@
 state=
 {
 	id=838
-	name="HANGZHOU"
+	name="Hangzhou"
 	manpower = 21230
 	state_category = city
 	history=

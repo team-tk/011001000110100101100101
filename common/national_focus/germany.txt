@@ -2596,8 +2596,8 @@ focus = {
 		bypass = {
 			
 			OR = {
-				GER = {is_in_faction_with = ITA}
-				GER = {has_war_with = ITA}
+				GER = { is_in_faction_with = ITA }
+				GER = { has_war_with = ITA }
 				NOT = { country_exists = ITA }
 			}
 		}
@@ -2612,6 +2612,7 @@ focus = {
 			ITA = {
 				add_opinion_modifier = { target = GER modifier = ger_ita_alliance_focus }
 			}
+			GER = { add_to_faction = ITA }
 		}
 	}
 	
